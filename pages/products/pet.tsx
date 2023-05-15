@@ -4,6 +4,8 @@ import Head from "next/head";
 import React from "react";
 import SeoTags from "../../components/seoTags";
 import TabsCategory from "../../components/TabsCategory";
+import { Link } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import client, {
   getAllproductByPage,
   getSeoForPate,
@@ -67,8 +69,8 @@ const HeadCat = () => {
         {/* Subscribe to our newsletter<a href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/" target="_blank">&nbsp;
         <strong> on LINKEDIN </strong>&nbsp;</a> for more information and tips.  */}
 
-        Subscribe to our newsletter  <a href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/" target='_blank'>on LINKEDIN</a> or 
-        <a href="https://oyatextile.com/cms/wp-content/uploads/2023/05/OyaPet-.pdf" target='_blank'>download our Catalog </a> for more information and tips.
+        Subscribe to our newsletter  <Link href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/" isExternal>on LINKEDIN {" "}  <ExternalLinkIcon mx='2px' /></Link> or 
+        <Link href="https://oyatextile.com/cms/wp-content/uploads/2023/05/OyaPet-.pdf" isExternal>download our Catalog  <ExternalLinkIcon mx='2px' /></Link> for more information and tips.
       </Text>
     </Box>
   );
