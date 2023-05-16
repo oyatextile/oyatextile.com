@@ -74,7 +74,6 @@ const HeadCat = () => {
           size="sm"
           bg={"#3ea394"}
           color="white"
-          p="4"
           border={"1"}
           _hover={{
             color: "#3ea394",
@@ -94,7 +93,6 @@ const HeadCat = () => {
           size="sm"
           bg={"#3ea394"}
           color="white"
-          p="4"
           border={"1"}
           _hover={{
             color: "#3ea394",
