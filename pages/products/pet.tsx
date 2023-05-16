@@ -104,7 +104,7 @@ const HeadCat = () => {
             {" "}
             Download Catalog
           </a>
-        </Button>{" "}
+        </Button>{" "}<br/>
         for more information and tips.
       </Text>
     </Box>
