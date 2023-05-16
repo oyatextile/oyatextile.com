@@ -67,9 +67,6 @@ const HeadCat = () => {
         margin={"auto"}
         maxW="2xl"
       >
-        {/* Subscribe to our newsletter<a href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/" target="_blank">&nbsp;
-        <strong> on LINKEDIN </strong>&nbsp;</a> for more information and tips.  */}
-        Subscribe to our newsletter{" "}
         <Button
           size="sm"
           bg={"#3ea394"}
@@ -85,10 +82,10 @@ const HeadCat = () => {
             target="_blank"
             href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/"
           >
-            on LINKEDIN
+            Newsletter on Linkedin
           </a>{" "}
         </Button>
-        {" "}or{" "}
+        {"  "}
         <Button
           size="sm"
           bg={"#3ea394"}
@@ -105,7 +102,7 @@ const HeadCat = () => {
             href="https://oyatextile.com/cms/wp-content/uploads/2023/05/OyaPet-.pdf"
           >
             {" "}
-            download our Catalog
+            Download Catalog
           </a>
         </Button>{" "}
         for more information and tips.
