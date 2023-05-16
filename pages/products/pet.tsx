@@ -88,7 +88,7 @@ const HeadCat = () => {
             on LINKEDIN
           </a>{" "}
         </Button>
-        or{" "}
+        {" "}or{" "}
         <Button
           size="sm"
           bg={"#3ea394"}
