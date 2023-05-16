@@ -63,6 +63,7 @@ const HeadCat = () => {
       <Flex
         px="4"
         py="2"
+        gap='2'
         fontSize={"14"}
         w="fit-content"
         margin={"auto"}
