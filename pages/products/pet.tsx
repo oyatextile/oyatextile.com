@@ -7,6 +7,8 @@ import TabsCategory from "../../components/TabsCategory";
 import { Link } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+
 import client, {
   getAllproductByPage,
   getSeoForPate,
@@ -58,8 +60,7 @@ const HeadCat = () => {
         a competitive price to match your country’s market requirements and
         needs.
       </Text>
-      <Text
-        textAlign="center"
+      <Flex
         px="4"
         py="2"
         fontSize={"14"}
@@ -104,8 +105,9 @@ const HeadCat = () => {
             {" "}
             Download Catalog
           </a>
-        </Button>{" "}<br/>
-      </Text>
+        </Button>{" "}
+        <br />
+      </Flex>
     </Box>
   );
 };
