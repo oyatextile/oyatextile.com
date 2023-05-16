@@ -71,16 +71,18 @@ const HeadCat = () => {
         <strong> on LINKEDIN </strong>&nbsp;</a> for more information and tips.  */}
         Subscribe to our newsletter{" "}
         <Button colorScheme="#3ea394" size="sm">
-          <a href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/"
+          >
             on LINKEDIN
           </a>{" "}
         </Button>
         or{" "}
         <Button colorScheme="#3ea394" size="sm">
           <a
-            color="#3ea394"
+            target="_blank"
             href="https://oyatextile.com/cms/wp-content/uploads/2023/05/OyaPet-.pdf"
-            isExternal
           >
             {" "}
             download our Catalog
