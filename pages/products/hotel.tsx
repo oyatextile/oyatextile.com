@@ -42,7 +42,7 @@ const HeadCat = () => {
         Hotel’s clients need a great stay experience. OYA’s hotel collection is
         a suitable choice for each hotel.
       </Text>
-      <Text
+      {/* <Text
         textAlign="center"
         px="4"
         py="2"
@@ -66,7 +66,57 @@ const HeadCat = () => {
       >
         Subscribe to our newsletter<a href="https://www.linkedin.com/newsletters/7024340195214782464/" target="_blank">&nbsp;
         <strong> on LINKEDIN </strong>&nbsp;</a> for more information and tips. 
-      </Text>
+      </Text> */}
+
+<Flex
+        px="4"
+        py="2"
+        gap='2'
+        fontSize={"14"}
+        w="fit-content"
+        margin={"auto"}
+        maxW="2xl"
+      >
+        <Button
+          size="sm"
+          bg={"#3ea394"}
+          color="white"
+          border={"1"}
+          _hover={{
+            color: "#3ea394",
+            bg: "white",
+            border: "1px solid",
+          }}
+        >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/"
+          >
+            Newsletter on Linkedin
+          </a>{" "}
+        </Button>
+        {"  "}
+        <Button
+          size="sm"
+          bg={"#3ea394"}
+          color="white"
+          border={"1"}
+          _hover={{
+            color: "#3ea394",
+            bg: "white",
+            border: "1px solid",
+          }}
+        >
+          <a
+            target="_blank"
+            href="https://oyatextile.com/cms/wp-content/uploads/2023/05/Hotel-CATALOUGE-2022.pdf"
+          >
+            {" "}
+            Download Catalog
+          </a>
+        </Button>{" "}
+        <br />
+      </Flex>
     </Box>
   );
 };
