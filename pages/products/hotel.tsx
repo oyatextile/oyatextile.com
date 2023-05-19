@@ -4,6 +4,7 @@ import Head from "next/head";
 import React from "react";
 import SeoTags from "../../components/seoTags";
 import TabsCategory from "../../components/TabsCategory";
+import { Button,Flex} from "@chakra-ui/react";
 import client, {
   getAllproductByPage,
   getSeoForPate,
