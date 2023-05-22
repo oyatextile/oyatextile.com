@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import SeoTags from "../../components/seoTags";
 import TabsCategory from "../../components/TabsCategory";
-import { Button,Flex} from "@chakra-ui/react";
+import { Button, Flex } from "@chakra-ui/react";
 import client, {
   getAllproductByPage,
   getSeoForPate,
@@ -69,10 +69,10 @@ const HeadCat = () => {
         <strong> on LINKEDIN </strong>&nbsp;</a> for more information and tips. 
       </Text> */}
 
-<Flex
+      <Flex
         px="4"
         py="2"
-        gap='2'
+        gap="2"
         fontSize={"14"}
         w="fit-content"
         margin={"auto"}
@@ -91,7 +91,7 @@ const HeadCat = () => {
         >
           <a
             target="_blank"
-            href="https://www.linkedin.com/newsletters/pet-textile-news-6897475199600615424/"
+            href="https://www.linkedin.com/newsletters/7024340195214782464/"
           >
             Newsletter on Linkedin
           </a>{" "}
