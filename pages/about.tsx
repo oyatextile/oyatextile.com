@@ -89,7 +89,7 @@ const About: NextPage = () => {
             py="8"
           >
             <Text fontSize="14">
-              OYA Textile - Oya Ev Tekstili ve tic.ltd.şti 000- A reputed Turkish
+              OYA Textile - Oya Ev Tekstili ve tic.ltd.şti- A reputed Turkish
               manufacturer and exporter of home, hotel, and pet textile with a
               significant accumulated experience in the field of Textile.
             </Text>
