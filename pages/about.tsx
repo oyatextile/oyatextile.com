@@ -45,7 +45,7 @@ const About: NextPage = () => {
     <>
       <VStack bg="white" color="black" w="100%">
         <Head>
-          <title>OYA Textile - Oya Ev Tekstili ve tic.ltd.şti. 000</title>
+          <title>OYA Textile - Oya Ev Tekstili ve tic.ltd.şti.</title>
           <meta
             name="description"
             content="A reputed Turkish manufacturer and exporter of home, hotel, and pet textile with a significant experience in the field of Textile."
@@ -89,7 +89,7 @@ const About: NextPage = () => {
             py="8"
           >
             <Text fontSize="14">
-              OYA Textile - Oya Ev Tekstili ve tic.ltd.şti - A reputed Turkish
+              OYA Textile - Oya Ev Tekstili ve tic.ltd.şti 000- A reputed Turkish
               manufacturer and exporter of home, hotel, and pet textile with a
               significant accumulated experience in the field of Textile.
             </Text>
